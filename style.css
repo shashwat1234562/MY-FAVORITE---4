@@ -65,15 +65,29 @@ html {
     margin: 8px auto;
 
 }
+
 .my {
     width: 160px;
     transition: transform .2s;
-    border:10px solid #AAAAAA;
+    border: 10px solid #AAAAAA;
 }
 
 .my:hover {
     transform: scale(0.9);
 }
 
+.my {
+    border-style: double;
+    border-color: cornflowerblue;
+    border-width: thick;
+
+}
+
+#imga {
+    border-style: double;
+    border-color: lawngreen;
+    border-width: 20px;
+    text-align: center;
 
 
+}
